@@ -1,0 +1,23 @@
+{
+    "name": "d3d9ex/doctrine-aes-256-ctr-encrypted-type",
+    "description": "Doctrine custom type for AES-256 CTR mode encryption",
+    "type": "library",
+    "license": "MIT",
+    "homepage" : "https://github.com/Legend999/doctrine-aes-256-ctr-encrypted-type",
+    "autoload": {
+        "psr-4": {
+            "D3d9ex\\Aes256CtrEncryptedType\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Damian Denc",
+            "email": "dencdamian@wp.pl"
+        }
+    ],
+    "require": {
+        "php" : ">=8.2",
+        "doctrine/dbal": "^3.7",
+        "ext-openssl": "*"
+    }
+}
