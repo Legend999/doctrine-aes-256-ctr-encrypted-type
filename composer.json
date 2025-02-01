@@ -17,7 +17,14 @@
     ],
     "require": {
         "php" : ">=8.2",
-        "doctrine/dbal": "^3.7",
+        "doctrine/dbal": "^4.0",
         "ext-openssl": "*"
-    }
+    },
+    "keywords": [
+        "aes-256-ctr",
+        "dbal",
+        "doctrine",
+        "encryption",
+        "php"
+    ]
 }
